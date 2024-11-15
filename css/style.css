@@ -52,11 +52,12 @@
     
 }
 
+
 .rang{
     border: 3px solid white;
     width: 20px;
     height: 20px;
-    background-color: #7f5c03;
+    background-color: blueviolet;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -73,7 +74,7 @@
 }
 .qavat{
     margin-top: 150px;
-    margin-left: 1150px;
+    margin-left: 800px;
 }
 .qavat button{
     cursor: pointer;
@@ -84,7 +85,7 @@
     border-radius: 100px;
     transition: 0.5s all ease;
     font-size: 25px;
-    font-family: Sour Gummy;
+    font-family: VT323;
     color: white;
 }
 .qavat button:hover{
@@ -103,9 +104,10 @@
 .xona h1{
     background-color: #252236;
     color: white;
+    font-size: 30px;
     text-align: center;
     margin-top: 12px;
-    font-family: Sour Gummy;
+    font-family: VT323;
 }
 .onehr{
     width: 950px;
@@ -116,4 +118,7 @@
 }
 .btn7::before{
     content: '<>';
+}
+.btn10::before{
+    content: '🔔';
 }
